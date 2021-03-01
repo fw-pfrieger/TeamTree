@@ -15,9 +15,9 @@ This hurdle can be overcome by a new bibliometric approach that visualizes the p
 This team-centered approach complements existing tools to mine the scientific literature across disciplines."
 
 ## Sounds too abstract?
-Ok, imagine you are a consultant, editor, engineer, investor, journalist, medical doctor, philanthropist, a scientist like me, or you-name-it.
-Imagine further that you are **interested in a specific topic of Science and Technology**, for example a rare human disease, research on Mars or the latest about quantum computers.
-You will query specific bibliometric databases (PubMed, Google Scholar etc.) and **read scientific articles about the topic**.
+Ok, imagine you are a consultant, editor, engineer, funding agency, investor, journalist, medical doctor, philanthropist, programmer, or a scientist like me.
+Imagine further that you are **interested in a specific topic of Science and Technology**, for example a rare human disease, research on Mars or quantum computing.
+You will **query** specific **bibliometric databases** (PubMed, Google Scholar etc.) and **read scientific articles about the topic**.
 However, this will **not give you the full picture**. You will have hard times to answer the following questions:
 - How has field developed over time?
 - How many people are working on the topic?
@@ -25,9 +25,9 @@ However, this will **not give you the full picture**. You will have hard times t
 
 To overcome this hurdle, I have come up with the **TeamTree analysis**, further referred to as **TTA**.
 This approach provides **new visuals and measures to explore a field of Science & Technology based on relevant publications.**
-For various reasons, I have implemented TTA using the open source programming langugage R.
+For "historic" reasons, I have implemented TTA using the open source programming langugage R.
 
-This repository contains the R code that implements the current version of TTA plus PubMed publications and TTA-derived data for an exemplary field to illustrate the approach.
+This repository contains the R code to run TTA plus PubMed publications and TTA-derived data for an exemplary field (Circadian Clock) to illustrate the approach as outlined in my article, which is currently under review.
 
 ## Installation
 To run the TeamTree analysis on the exemplary field of research, you need to
