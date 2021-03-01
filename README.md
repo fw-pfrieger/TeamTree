@@ -14,7 +14,7 @@ This hurdle can be overcome by a new bibliometric approach that visualizes the p
 This team-centered approach complements existing tools to mine the scientific literature across disciplines."
 
 ## Sounds too abstract?
-Ok, imagine you are a consultant, editor, engineer, investor, journalist, medical doctor, philanthropist, a scientist like me, or ... 
+Ok, imagine you are a consultant, editor, engineer, investor, journalist, medical doctor, philanthropist, a scientist like me, or you-name-it.
 Imagine further that you are **interested in a specific topic of Science and Technology**, for example a rare human disease, research on Mars or the latest about quantum computers.
 You will query specific bibliometric databases (PubMed, Google Scholar etc.) and **read scientific articles about the topic**.
 However, this will **not give you the full picture**. You will have hard times to answer the following questions:
@@ -30,11 +30,11 @@ This repository contains the R code that implements the current version of TTA p
 
 ## Installation
 To run the TeamTree analysis on the exemplary field of research, you need to
-1. Download the file with the R code (TeamTree.txt) to your preferred directory
-2. Download the csv file with the PubMed articles related to"Circadian clock" to your preferred directory
+1. Download the file with the R code (TeamTree.txt).
+2. Download the csv file with the PubMed articles related to "Circadian clock".
 3. Make sure you have the required libraries/packages
-4. In the R code, indicate the directory, where the csv file with the PubMed articles is located.
-5. Simply run the script by copy/paste in the RGui.
+4. In the R code, indicate, where the csv file with the PubMed articles is located.
+5. Run the script by copy/paste in the RGui - or use your preferred method to run R code.
 
 # Why an open source project?
 I am not a professional programmer, so I decided to reach out for help. The goal of the project is to set up a freely accessible website that allows anybody interested to perform the TeamTree analysis.
