@@ -1,6 +1,7 @@
 # Welcome to the TeamTree Project
 
-Created by Frank W. Pfrieger
+By Frank W. Pfrieger
+
 CNRS/University of Strasbourg, Strasbourg, France
 (fw-pfrieger@gmx.de or frank.pfrieger@unistra.fr)
 
