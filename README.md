@@ -36,15 +36,18 @@ To run the TeamTree analysis on the exemplary field of research, you need to
 5. Run the script by copy/paste in the RGui - or use your preferred method to run R code.
 
 # Why an open source project?
-The need to find information about a field of S&T and to learn about the teams working in the field occurs quite frequently. Thus, TTA is probably of interest for a large and diverse range of users such as - for example - scientists, engineers, programmers, but also editors, consultants/head hunters, investors, journalists, medical doctors, philanthropists etc. Even the general public, I imagine someone trying to find an expert on a rare disease.
-Therefore, I would like to make TTA available to anybody interested, ideally through a website or an app. Since I am not a professional programmer, I decided to reach out for help through Github and to launch this open source project.
-Its goal is to set up a freely accessible website / app that allows anybody interested to perform the TeamTree analysis on scientific publications.
+The need to **find information about a field of S&T and to learn about the teams** working in the field **occurs frequently**. Thus, **TTA** is probably **of interest for a large and diverse range of users** such as - for example - scientists, engineers, programmers, but also editors, consultants/head hunters, investors, journalists, medical doctors, philanthropists etc. Even the **general public**, I imagine someone trying to **find an expert on a rare disease**.
+Therefore, I would like to **make TTA available to anybody interested through a website or an app**. Since I am not a professional programmer, I decided to reach out for help through Github and to launch this **open source project**.
 
 ## ToDo list
-Obviously, these are just suggestions/ideas, open for discussion:
-- Implement the TeamTree procedure in a different language to improve performance/visual display.
-- Create html page where a user can upload articles on a specific topic or query directly a relevant database (e.g. PubMed, Google Scholar, Microsoft Academic, preprint servers, search engines etc.).
+- Implement the TeamTree procedure in a different language to improve performance/visual display and allow for interactivity.
+- Create html page/app where a user can upload articles on a specific topic or query directly a relevant database (e.g. PubMed, Google Scholar, Microsoft Academic, preprint servers, search engines etc.).
 - Extract authors and years of publication from the articles
-- Perform TTA, store data and display the different graphs as shown in the preprint (or otherwise)
-- Develop new features and visuals such as author disambiguation, three-dimensional display of TeamTrees and interactive graphs allowing a user to obtain information on specific teams.
+- Perform TTA, store data and display the new visuals as shown in the preprint (or otherwise)
+- Develop new features and visuals such as
+    - author disambiguation
+    - 3D display of TeamTrees (spiral-like timeline)
+    - interactive graphs allowing a user for example to obtain information on specific teams, to zoom into a specific time window.
 - Application of TTA to other types of scientific output (patents, preprints, etc.).
+
+Obviously, these are suggestions/ideas.
