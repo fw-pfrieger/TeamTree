@@ -4,7 +4,7 @@ By Frank W. Pfrieger
 CNRS/University of Strasbourg, Strasbourg, France
 (fw-pfrieger@gmx.de or frank.pfrieger@unistra.fr)
 
-This repository provides free access to R code and example files (see preprint Pfrieger, 2021 https://doi.org/10.1101/2020.06.01.128355) and serves as launch pad for an open source project.
+This repository provides free access to R code and example files (see BioRxiv preprint Pfrieger, 2021, https://doi.org/10.1101/2020.06.01.128355) and serves as launch pad for an open source project.
 
 ## What's this all about?
 Here's the "scientific summary" from my preprint:
