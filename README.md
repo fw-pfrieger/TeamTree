@@ -15,7 +15,7 @@ This team-centered approach complements existing tools to mine the scientific li
 
 ## Sounds too abstract?
 Imagine that you are **interested in a specific topic of Science and Technology**, for example a rare human disease, research on Mars or quantum computing.
-You will **query** specific **bibliometric databases** (PubMed, Google Scholar etc.) and **read scientific articles about the topic**.
+You will **query** specific **bibliometric databases** (PubMed, Scopus, Web of Science etc.) and **read scientific articles about the topic**.
 However, this will **not give you the full picture**. You will have hard times to answer the following questions:
 - How has field developed over time?
 - How many people are working on the topic?
@@ -41,13 +41,13 @@ Therefore, I would like to **make TTA available to anybody interested through a 
 
 ## ToDo list
 - Implement the TeamTree procedure in a different language to improve performance/visual display and allow for interactivity.
-- Create html page/app where a user can upload articles on a specific topic or query directly a relevant database (e.g. PubMed, Google Scholar, Microsoft Academic, preprint servers, search engines etc.).
+- Create html page/app where a user can upload articles on a specific topic or query directly a relevant (and accessible) database (e.g. PubMed, Google Scholar, Microsoft Academic, search engines etc.).
 - Extract authors and years of publication from the articles
 - Perform TTA, store data and display the new visuals as shown in the preprint (or otherwise)
 - Develop new features and visuals such as
     - author disambiguation
     - 3D display of TeamTrees (spiral-like timeline)
     - interactive graphs allowing a user for example to obtain information on specific teams, to zoom into a specific time window.
-- Application of TTA to other types of scientific output (patents, preprints, etc.).
+- Application of TTA to other types of scientific output such as patents and preprints.
 
 Obviously, these are suggestions/ideas.
