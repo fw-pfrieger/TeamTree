@@ -4,10 +4,10 @@ By Frank W. Pfrieger
 CNRS/University of Strasbourg, Strasbourg, France
 (fw-pfrieger@gmx.de or frank.pfrieger@unistra.fr)
 
-This repository provides free access to R code and example files (see BioRxiv preprint Pfrieger, 2021, https://doi.org/10.1101/2020.06.01.128355) and serves as launch pad for an open source project.
+This repository provides free access to R code and example files enabling the TeamTree analysis. It also serves as launch pad for an open source project.
 
 ## What's this all about?
-Here's the "scientific summary" from my preprint:
+Here's the "scientific summary", for in-depth information see my BioRxiv preprint (Pfrieger, 2021, https://doi.org/10.1101/2020.06.01.128355):
 "Advances in science and technology depend on the work of research teams and the dissemination of their results through peer-reviewed articles, which constitute a fastly growing socio-economic resource.
 Current methods to mine publications in a field of interest focus on content, but the workforce credited by authorship remains largely unexplored.
 This hurdle can be overcome by a new bibliometric approach that visualizes the publication records of authors working in a user-defined field, delineates their genealogic and collaborative connections and provides citation-independent performance measures.
@@ -25,21 +25,23 @@ To overcome this hurdle, I have come up with the **TeamTree analysis**, further 
 This approach provides **new visuals and measures to explore a field of Science & Technology based on relevant publications.**
 The current version of TTA uses the open source programming langugage R.
 
-This repository contains the R code to run TTA plus a list of PubMed publications and TTA-derived data for an exemplary field (Circadian Clock) as shown in the preprint. The manuscript is currently under review.
+This repository contains the R code to run TTA (Teamtree_8.txt) plus a list of PubMed publications (pub_clock.csv) and TTA-derived data for an exemplary field (Circadian Clock) as shown in the preprint (pub_clock_TTA_data.csv). The manuscript is currently under review.
 
 ## Installation
 To run the TeamTree analysis on the exemplary field of research, you need to
 1. Download the file with the R code (Teamtree_8.txt).
-2. Download the file "pub_clock.csv" with the PubMed articles related to the keyword "Circadian clock".
+2. Download the file "pub_clock.csv" with the PubMed articles related to the keyword "Circadian clock" and the data file (pub_clock_TTA_data.csv).
 3. Make sure you have the required libraries/packages
 4. In the R code, indicate the directories, where the csv file with the PubMed articles is located and where data should be saved to.
-5. Run the script by copy/paste in the RGui - or use your preferred method to run R code.
+5. If you have downloaded the data file, TTA will use the saved colors. If not, you need to set "new colors=T".
+6. Run the script by copy/paste in the RGui - or use your preferred method to run R code.
 
 # Why an open source project?
 The need to **find information about a field of S&T and to learn about the teams** working in the field **occurs frequently**. Thus, **TTA** is probably **of interest for a large and diverse range of users** such as - for example - scientists, engineers, programmers, but also editors, consultants/head hunters, investors, journalists, medical doctors, philanthropists etc. Even the **general public**, I imagine someone trying to **find an expert on a rare disease**.
 Therefore, I would like to **make TTA available to anybody interested through a website or an app**. Since I am not a professional programmer, I decided to reach out for help through Github and to launch this **open source project**.
 
 ## ToDo list
+- Revised R code to optimize for speed (remember, I am not a professional programmer).
 - Implement the TeamTree procedure in a different language to improve performance/visual display and allow for interactivity.
 - Create html page/app where a user can upload articles on a specific topic or query directly a relevant (and accessible) database (e.g. PubMed, Google Scholar, Microsoft Academic, search engines etc.).
 - Extract authors and years of publication from the articles
