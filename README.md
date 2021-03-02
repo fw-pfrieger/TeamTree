@@ -1,6 +1,8 @@
 # Welcome to the TeamTree Project
 
 By Frank W. Pfrieger (fw-pfrieger@gmx.de or frank.pfrieger@unistra.fr)
+
+
 CNRS / University of Strasbourg, Institute of Cellular and Integrative Neurosciences, Strasbourg, France.
 
 This repository provides free access to R code and example files enabling the TeamTree analysis. It also serves as launch pad for an open source project.
