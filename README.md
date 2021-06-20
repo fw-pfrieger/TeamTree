@@ -26,14 +26,14 @@ To overcome this hurdle, I have come up with the **TeamTree analysis**, further 
 This approach provides **new visuals and measures to explore a field of Science & Technology based on relevant publications.**
 The current version of TTA is based on the open source programming langugage R.
 
-This repository contains the R code to run TTA (Teamtree_8.txt) plus a list of PubMed publications (pub_clock.csv) and TTA-derived data for an exemplary field (Circadian Clock) as shown in the preprint (pub_clock_TTA_data.csv). The manuscript is currently under review.
+This repository contains the R code to run TTA (Teamtree_11.R) plus a list of PubMed publications (pub_clock.csv) and TTA-derived data for an exemplary field (Circadian Clock) as shown in the preprint (pub_clock_TTA_data.csv). The manuscript is currently under review.
 
 ## Installation
 To run the TeamTree analysis on the exemplary field of research, you need to
-1. Download the file with the R code (Teamtree_8.txt).
+1. Download the file with the R code (Teamtree_11.R).
 2. Download the file "pub_clock.csv" with the PubMed articles related to the keyword "Circadian clock" and the data file (pub_clock_TTA_data.csv).
 3. Make sure you have the required libraries/packages.
-4. In the R code, indicate the directories, where the csv file with the PubMed articles is located and where data should be saved to.
+4. In the R script, indicate the directories, where the csv file with the PubMed articles is located and where data should be saved to.
 5. If you have downloaded the data file, TTA will use the saved colors. If not, you need to set "new colors=T".
 6. Run the script by copy/paste in the RGui - or use your preferred method to run R code.
 
