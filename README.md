@@ -8,7 +8,7 @@ CNRS / University of Strasbourg, Institute of Cellular and Integrative Neuroscie
 This repository provides free access to R code and example files enabling the TeamTree analysis. It also serves as launch pad for an open source project.
 
 ## What is this all about?
-Here's the "scientific summary", for in-depth information see my BioRxiv preprint (Pfrieger, 2021, https://doi.org/10.1101/2020.06.01.128355):
+Here's the "scientific summary", for in-depth information see the article in PLOS ONE (Pfrieger, 2021, **https://doi.org/10.1371/journal.pone.0253847**):
 "Advances in science and technology depend on the work of research teams and the publication of results through peer-reviewed articles representing a growing socio-economic resource. Current methods to mine the scientific literature regarding a field of interest focus on content, but the workforce credited by authorship remains largely unexplored. Notably, appropriate measures of scientific production are debated. Here, a new bibliometric approach named TeamTree analysis is introduced that visualizes the development and composition of the workforce driving a field. A new citation-independent measure that scales with the H index estimates impact based on publication record, genealogical ties and collaborative connections. This author-centered approach complements existing tools to mine the scientific literature and to evaluate research across disciplines."
 
 ## Sounds too abstract?
